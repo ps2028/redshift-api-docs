@@ -134,3 +134,7 @@ main()
     "galaxy_id": 28
 }]
 ```
+
+#### Note
+* * When adding a new script to the API, you must upload the script to the path defined in the `SCRIPT_PATH` macro inside `globals.php` file. Just a filename along with extension is fine for the methods.PYTHON_SCRIPT_PATH field in the database. *
+* For now all the file-based, result are expected to be a `.png` file.
